@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+
+.container {
+    width: 100%;
+    background: lightblue;
+}
+
+@media (min-width: 48rem) {
+    .container {
+        width: 80%;
+        background: orange;
+    }
+}
+
+@media (min-width: 64rem) {
+    .container {
+        width: 90%;
+        background: blue;
+    }
+}
+
+@media (min-width: 75rem) {
+    .container {
+        width: 100%;
+        background: purple;
+    }
+}
+
+
+
+
+/*
+@plugin "daisyui" {
+    themes: dark --prefersdark;
+    root: ":root";
+    include: ;
+    exclude: ;
+    prefix: ;
+    logs: true;
+} */
+
+/* @theme {
+    --breakpoint-*: initial;
+    --breakpoint-md: 50rem;
+    --breakpoint-lg: 60rem;
+    --breakpoint-xl: 80rem;
+    --container-md: 60rem;
+    --container-lg: 80rem;
+} */
